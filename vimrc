@@ -56,6 +56,8 @@ Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
 " }}}
 Plug 'moll/vim-node'
 Plug 'fatih/vim-go', { 'do': 'vim +GoInstallBinaries +qall' }
+" HTML & CSS
+Plug 'mattn/emmet-vim'
 
 " Appearance
 Plug 'vim-airline/vim-airline' | Plug 'vim-airline/vim-airline-themes'
@@ -102,7 +104,7 @@ set visualbell
 """"""""""""""""""""""""""""""""""""""""""""""""""""
 colo onedark
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""
 " => GUI MacVim
 """"""""""""""""""""""""""""""""""""""""""""""""""""
 if has("gui_running")
