@@ -28,6 +28,6 @@ Bao used [vim-airline](https://github.com/bling/vim-airline), with Powerline sym
 
 
 * Install jedi: `pip install jedi`
-* Install ctags
+* Install ctags: `brew install ctags`
 
 > Shameless plug: Install Bao's tool [vimplugin-cli](https://github.com/baopham/vimplugin-cli) to quickly find/remove plugins and their settings
