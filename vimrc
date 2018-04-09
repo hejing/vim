@@ -58,6 +58,9 @@ Plug 'moll/vim-node'
 Plug 'fatih/vim-go', { 'do': 'vim +GoInstallBinaries +qall' }
 " HTML & CSS
 Plug 'mattn/emmet-vim'
+" Markdown
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
 
 " Appearance
 Plug 'vim-airline/vim-airline' | Plug 'vim-airline/vim-airline-themes'
@@ -197,6 +200,7 @@ highlight MatchParen cterm=bold ctermfg=cyan
 command CDC cd %:p:h
 
 " Swap, backup, undo  {{{
+  set noundofile
   set nobackup
   set noswapfile
   set nowb
