@@ -58,9 +58,6 @@ Plug 'moll/vim-node'
 Plug 'fatih/vim-go', { 'do': 'vim +GoInstallBinaries +qall' }
 " HTML & CSS
 Plug 'mattn/emmet-vim'
-" Markdown
-Plug 'godlygeek/tabular'
-Plug 'plasticboy/vim-markdown'
 
 " Appearance
 Plug 'vim-airline/vim-airline' | Plug 'vim-airline/vim-airline-themes'

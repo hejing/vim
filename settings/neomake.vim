@@ -11,6 +11,7 @@ let g:neomake_message_sign = {
       \   'texthl': 'NeomakeMessageSign',
       \ }
 let g:neomake_info_sign = {'text': 'ℹ', 'texthl': 'NeomakeInfoSign'}
+let g:neomake_python_enabled_makers = ['flake8']
 
 autocmd! BufWritePost *.js,*.jsx silent NeomakeFile
 autocmd! BufWritePost *.py silent NeomakeFile
