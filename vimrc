@@ -51,8 +51,16 @@ Plug 'tomtom/tcomment_vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'neomake/neomake' | Plug 'jaawerth/neomake-local-eslint-first'
 " {{{ Autocomplete
-Plug 'Shougo/neocomplete.vim' | Plug 'davidhalter/jedi-vim', { 'for': ['python'] }
-Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
+" Plug 'Shougo/neocomplete.vim' | Plug 'davidhalter/jedi-vim', { 'for': ['python'] }
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
+let g:deoplete#enable_at_startup = 1
+" Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
 " }}}
 Plug 'moll/vim-node'
 Plug 'fatih/vim-go', { 'do': 'vim +GoInstallBinaries +qall' }
