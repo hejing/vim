@@ -10,9 +10,11 @@ This repo is forked from [baopham-vim](https://github.com/baopham/vim.git)
 
 * Vim 8 (2 options)
 
-1> [Install MacVim app](https://github.com/macvim-dev/macvim/releases) and then `ln -s /Applications/MacVim.app/Contents/bin/mvim /usr/local/bin/mvim &&ln -s /usr/local/bin/mvim /usr/local/bin/vim`
+1> [Install MacVim app](https://github.com/macvim-dev/macvim/releases) and then 
+`ln -s /Applications/MacVim.app/Contents/bin/mvim /usr/local/bin/mvim &&ln -s /usr/local/bin/mvim /usr/local/bin/vim`
+
 2> brew install macvim
-ln -s /usr/local/bin/mvim /usr/local/bin/vim`
+`ln -s /usr/local/bin/mvim /usr/local/bin/vim`
 
 
 ### Installation
